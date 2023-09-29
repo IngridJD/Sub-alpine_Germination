@@ -138,6 +138,6 @@ SeedScoring <- SeedScoring %>%
          species = Species,
          plotID = plot_seedling_ID) %>% 
   mutate(registrator = "IJD") %>%
-  select(species, siteID, blockID, OTC, vegetation, plot_seedling_ID, uniqueID, strategy, X, Y, total_seeds_sown, germinated, total_seedlings_emerged, total_seedlings_survived, date, present)
+  select(species, siteID, blockID, OTC, vegetation, plotID, uniqueID, strategy, X, Y, total_seeds_sown, germinated, total_seedlings_emerged, total_seedlings_survived, date, present)
          
 # Saving the cleaned dataset        
